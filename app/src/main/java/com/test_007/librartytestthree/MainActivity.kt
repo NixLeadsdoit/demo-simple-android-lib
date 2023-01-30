@@ -10,9 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
 
-        Sydney.suburbs
 
         setContentView(R.layout.activity_main)
-        findViewById<TextView>(R.id.tv).text = Sydney.suburbs[1]
+        findViewById<TextView>(R.id.tv).text = Sydney.suburbs[0]
     }
 }

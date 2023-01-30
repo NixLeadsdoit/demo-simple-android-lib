@@ -43,5 +43,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
 
-    implementation(project(":TestLibraryThree"))
+    implementation 'com.github.NixLeadsdoit:demo-simple-android-lib:0.0.0'
 }
